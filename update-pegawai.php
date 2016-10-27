@@ -1,6 +1,9 @@
 <?php
-   // include_once "cek_login.php";
+    include_once "cek_login_manajer.php";
 ?>
+<div class="right-button-margin">
+    <a href="logout_manajer.php" class="btn btn-default pull-right">Logout</a>
+</div>
 <?php
 
 $page_title = "IVT";

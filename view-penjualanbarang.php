@@ -1,4 +1,10 @@
 <?php
+    include_once "cek_login_pegawai.php";
+?>
+<div class="right-button-margin">
+    <a href="logout_pegawai.php" class="btn btn-default pull-right">Logout</a>
+</div>
+<?php
 $page_title = "IVT";
 
 include_once 'config/database.php';

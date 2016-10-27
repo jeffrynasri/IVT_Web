@@ -59,11 +59,9 @@ include_once "header.php";
 	 		$_SESSION['admin_password']=$password;*/
 	 		if(isset($_POST['manajer'])){
 	 			$_SESSION['admin_manajer']=1;
-	 			$_SESSION['admin_pegawai']=0;
 	 			header("location:view-pembelianbarang.php");
 	 		}
 	 		else if(isset($_POST['petugas'])){
-	 			$_SESSION['admin_manajer']=0;
 	 			$_SESSION['admin_pegawai']=1;
 	 			header("location:view-penjualanbarang.php");
 	 		}
