@@ -1,5 +1,5 @@
 <?php
-$page_title = "IVT";
+$page_title = "IVT_HEROKU";
 
 //include_once 'config/database.php';
 //include_once 'objects/pegawai.php';
