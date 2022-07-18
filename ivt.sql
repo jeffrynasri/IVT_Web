@@ -84,7 +84,7 @@ CREATE TABLE `manajer` (
 --
 
 INSERT INTO `manajer` (`nim`, `nama`, `no_tlp`, `username`, `password`) VALUES
-(1, 'Jeffry', '082143666656', 'amin', 'amin');
+(1, 'Joker', '082313131', 'amin', 'amin');
 
 -- --------------------------------------------------------
 
@@ -106,7 +106,7 @@ CREATE TABLE `pegawai` (
 --
 
 INSERT INTO `pegawai` (`nipg`, `nama`, `alamat`, `no_tlp`, `username`, `password`) VALUES
-(1, 'Kukuh', 'Purworejo', '082143666656', 'amin', 'amin');
+(1, 'KUri', 'Purworejo', '082313131', 'amin', 'amin');
 
 -- --------------------------------------------------------
 
@@ -126,7 +126,7 @@ CREATE TABLE `pemasok` (
 --
 
 INSERT INTO `pemasok` (`nip`, `nama`, `alamat`, `no_tlp`) VALUES
-(1, 'Kertajaya Shop', 'Kertajaya No 2', '08214366656');
+(1, 'Kertajaya Shop', 'Kertajaya No 2', '082313131');
 
 -- --------------------------------------------------------
 
